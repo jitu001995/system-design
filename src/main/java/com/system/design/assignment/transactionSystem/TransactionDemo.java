@@ -30,8 +30,7 @@ public class TransactionDemo {
         // 3. Singleton Pattern
         // =====================================
 
-        TransactionManager manager =
-                TransactionManager.getInstance();
+        TransactionManager manager = TransactionManager.getInstance();
 
 
         //======================================
