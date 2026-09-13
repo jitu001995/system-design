@@ -16,8 +16,7 @@ public class PaymentDemo {
                 upi.processPayment(2500);
 
 
-                PaymentProcessor netBanking =
-                        PaymentProcessorFactory.getProcessor("NET_BANKING");
+                PaymentProcessor netBanking = PaymentProcessorFactory.getProcessor("NET_BANKING");
 
                 netBanking.processPayment(10000);
             }
